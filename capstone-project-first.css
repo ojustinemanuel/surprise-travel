@@ -1,0 +1,87 @@
+
+* {
+	padding: 0;
+	margin: 0;
+	box-sizing: border-box;
+	font-family: "Varela Round";
+
+}
+
+/*landing-page*/
+
+
+.navbar {
+	background-color: black;
+	color: black;	
+}
+
+
+.landing-page { 
+	background-image: url(landing-page-photo.jpeg);
+	background-size: cover;
+	background-attachment: fixed;
+	background-position: center;
+    background-repeat: no-repeat;
+	height: 55em;
+	width: auto;
+ }
+
+
+ .jumbotron {
+	background-color: transparent;
+	color: black;
+	font-weight: bolder;
+
+}
+
+.jumbotron  a {
+	color: black;
+	text-decoration: none;
+	padding: 5px;
+	border: 2px solid black;
+}
+
+/*about-section*/
+.about-box {
+	height: 20em;
+	padding-top: 5em;
+	margin-right: 20%;
+}
+
+.glyphicon {
+	font-size: 50px;
+}
+
+
+/*after-section*/
+.after-section {
+	background-image: url(after-about-photo.jpeg);
+	background-size: cover;
+	background-attachment: fixed;
+	background-position: center;
+    background-repeat: no-repeat;
+	height: 40em;
+	width: auto;
+
+}
+/*after-services*/
+.after-services {
+	background-image: url(after-services-section.jpg);
+	background-size: cover;
+	background-attachment: fixed;
+	background-position: center;
+    background-repeat: no-repeat;
+	height: 40em;
+	width: auto;
+}
+
+/*after-getting-started*/
+.after-getting-started {
+	background-image: url(after-getting-started.jpeg);
+	background-size: cover;
+	background-attachment: fixed;
+	background-position: center;
+    background-repeat: no-repeat;
+	height: 40em;
+	width: auto;
+}
